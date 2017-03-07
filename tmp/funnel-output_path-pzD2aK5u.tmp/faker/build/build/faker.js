@@ -1,0 +1,1 @@
+/Users/imaya-pt1372/Documents/sampleapp/tmp/funnel-input_base_path-0bnn6Eje.tmp/build/build/faker.js

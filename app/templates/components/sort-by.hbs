@@ -1,0 +1,13 @@
+<div class="dropdown">
+    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Sort By
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li><a href="#" {{action "ascc"}}>Ascending <span class="fa fa-sort-alpha-asc"></span></a></li>
+      <li><a href="#" {{action "descc"}}>Descending <span class="fa fa-sort-alpha-desc"></span></a></li>
+      <li><a href="#" {{action "datee"}}>Date <span class="fa fa-calendar"></span></a></li>
+      <li><a href="#" {{action "searchee"}}>Custom Search <span class="fa fa-search"></span></a></li>
+    </ul>
+</div>
+{{#if state}}
+{{yield result}}
+{{/if}}

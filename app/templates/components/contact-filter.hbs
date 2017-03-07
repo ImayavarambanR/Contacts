@@ -1,0 +1,17 @@
+<div class="container bootstrap snippet">
+    <div class="row">
+        <div class="col-lg-8">
+            <div class="panel panel-default">
+                <div class="panel-body p-t-0">
+                    <div class="input-group">
+                        {{input value=value class="form-control" key-up=(action 'filteree') placeholder="Search..."}}
+                        <span class="input-group-btn">
+                            <button type="button" class="btn btn-effect-ripple btn-primary"><i class="fa fa-search"></i></button>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{{yield results}}

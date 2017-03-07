@@ -1,0 +1,1 @@
+/Users/imaya-pt1372/Documents/sampleapp/node_modules/ember-cli/lib/broccoli/testem.js

@@ -1,0 +1,59 @@
+<form>
+  <div class="form-group">
+    <label for="name">Name</label>
+    {{input type="text" class="form-control" id="name" value=name placeholder="Enter Name"}}
+  </div>
+  <div class="form-group">
+    <label for="number">Number</label>
+    {{input type="number" class="form-control" id="number" value=phone placeholder="Contact Number"}}
+  </div>
+  <div class="form-group">
+    <label for="facebook">Facebook</label>
+    {{input type="text" class="form-control" id="facebook" value=facebook placeholder="Profile Name"}}
+  </div>
+  <div class="form-group">
+    <label for="twitter">Twitter</label>
+    {{input type="text" class="form-control" id="twitter" value=twitter placeholder="Handle"}}
+  </div>
+  <div class="form-group">
+    <label for="linkedin">LinkedIn</label>
+    {{input type="text" class="form-control" id="linkedin" value=linkedin placeholder="LinkedIn Url"}}
+  </div>
+  <div class="form-group">
+    <label for="email">Email</label>
+    {{input type="email" class="form-control" id="email" value=email placeholder="Email id"}}
+  </div>
+  <div class="form-group">
+    <label for="desc">Description</label>
+    {{textarea class="form-control" id="desc" value=desc rows="3"}}
+  </div>
+  <div class="form-group">
+    <label for="picture">Profile Picture</label>
+    <input type="file" class="form-control-file" id="picture">
+  </div>
+  <fieldset class="form-group">
+    <legend>Group</legend>
+    <div class="form-check">
+      <label class="form-check-label">
+        <input type="radio" class="form-check-input" name="group" id="op1" value="family" checked>
+        Family
+      </label>
+    </div>
+    <div class="form-check">
+    <label class="form-check-label">
+        <input type="radio" class="form-check-input" name="group" id="op2" value="family">
+        Friend
+      </label>
+    </div>
+    <div class="form-check disabled">
+    <label class="form-check-label">
+        <input type="radio" class="form-check-input" name="group" id="op3" value="family">
+        Office
+      </label>
+    </div>
+  </fieldset>
+  <button type="submit" class="btn btn-primary" {{action "clickyy"}}>Submit</button>
+</form>
+{{#if issad}}
+  {{yield con}}
+{{/if}}

@@ -1,0 +1,11 @@
+{{#link-to 'contacts.create'}}<button style="float:right" class="btn btn-lg btn-danger">Create</button>{{/link-to}}
+
+{{#contact-filter  filter=(action "filterByName") as |contacts|}}
+<div class="row">
+    {{#each contacts as |contact|}}
+      {{contact-list contact=contact}}
+    {{/each}}
+</div>
+{{/contact-filter}}
+
+{{outlet}}

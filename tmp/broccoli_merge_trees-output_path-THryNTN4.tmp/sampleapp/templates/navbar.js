@@ -1,0 +1,1 @@
+/Users/imaya-pt1372/Documents/sampleapp/tmp/broccoli_merge_trees-input_base_path-yllB0bkR.tmp/1/sampleapp/templates/navbar.js

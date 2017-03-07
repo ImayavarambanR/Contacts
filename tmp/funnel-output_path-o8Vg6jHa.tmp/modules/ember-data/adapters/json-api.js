@@ -1,0 +1,1 @@
+/Users/imaya-pt1372/Documents/sampleapp/tmp/funnel-input_base_path-ekvEb5n8.tmp/adapters/json-api.js

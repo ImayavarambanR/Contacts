@@ -1,0 +1,11 @@
+<div class="container">
+  <div class="list-group">
+    {{#each lists as |reminder|}}
+      {{#link-to 'reminders.disp' reminder class="list-group-item"}}
+        <h4 class="list-group-item-heading">{{reminder.title}}<span style="float:right;color:blue">{{reminder.date}}</span></h4>
+        <p class="list-group-item-text">{{reminder.purpose}}</p>
+      {{/link-to}}
+    {{/each}}
+  </div>
+</div>
+{{yield}}

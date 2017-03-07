@@ -1,0 +1,1 @@
+/Users/imaya-pt1372/Documents/sampleapp/node_modules/ember-source/dist/ember-testing.js

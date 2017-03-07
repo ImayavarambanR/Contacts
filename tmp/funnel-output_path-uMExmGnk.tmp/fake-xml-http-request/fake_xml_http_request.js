@@ -1,0 +1,1 @@
+/Users/imaya-pt1372/Documents/sampleapp/tmp/funnel-input_base_path-B99exOtL.tmp/fake_xml_http_request.js

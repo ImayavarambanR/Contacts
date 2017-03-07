@@ -1,0 +1,36 @@
+{{#link-to 'reminders.create'}}<button style="float:right;margin-top:-50px;" class="btn btn-lg btn-danger">Create</button>{{/link-to}}
+{{#sort-by as |result|}}
+{{#if result}}
+{{#if (check result "CSearch")}}
+    {{#reminder-filter filter=(action "filterByTitle") as |reminders|}}
+    <div class="container">
+      <div class="list-group">
+        {{#each reminders as |reminder|}}
+          {{reminder-list reminder=reminder}}
+        {{/each}}
+      </div>
+    </div>
+    {{/reminder-filter}}
+
+{{else if (check result "Ascending")}}
+
+    {{reminder-disp sort=result list=model}}
+
+{{else if (check result "Descending")}}
+
+    {{reminder-disp sort=result list=model}}
+
+{{else if (check result "Date")}}
+
+    {{reminder-disp sort=result list=model}}
+
+{{/if}}
+
+{{else}}
+
+    {{reminder-disp sort="Default" list=model}}
+
+{{/if}}
+
+{{/sort-by}}
+{{outlet}}

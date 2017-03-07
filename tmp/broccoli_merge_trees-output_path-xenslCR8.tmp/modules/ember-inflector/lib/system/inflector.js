@@ -1,0 +1,1 @@
+/Users/imaya-pt1372/Documents/sampleapp/tmp/broccoli_merge_trees-input_base_path-t4efY7At.tmp/4/modules/ember-inflector/lib/system/inflector.js

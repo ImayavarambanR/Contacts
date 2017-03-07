@@ -1,0 +1,13 @@
+{{#link-to 'reminders.index'}}<button class="btn btn-lg btn-info">&lt;&lt; Back</button>{{/link-to}}
+<div class="card bg-primary" style="width: 50rem;margin-left:35%;border-radius:5px;padding:3px;height:400px;">
+  <div class="card-block">
+    <h2 class="card-title text-center">{{model.title}}</h2><hr>
+    <h3>{{model.purpose}}</h3>
+    <p class="card-text"><span style="color:black;text-decoration:underline;"><h4>Desc : </h4></span>{{model.desc}}</p>
+  </div>
+  <br><br>
+  <ul class="list-group list-group-flush" style="color:black;">
+    <li class="list-group-item"><span class="fa fa-calendar"></span> : {{model.date}}</li>
+    <li class="list-group-item"><span class="fa fa-clock-o"></span> : {{model.time}}</li>
+  </ul>
+</div>

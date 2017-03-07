@@ -1,0 +1,29 @@
+{{#link-to 'contacts.index'}}<button class="btn btn-lg btn-info">&lt;&lt; Back</button>{{/link-to}}
+<div class="card card-info" style="width: 50rem;margin-left:35%;background:green;border-radius:5px;padding:3px;height:700px;color:white;">
+  <img class="card-img-top img-circle" width="304" height="236" style="margin-left:20%;border:2px black solid;" src={{model.img}} alt={{model.name}}>
+  <div class="card-block">
+    <h2 class="card-title" style="margin-left:3px;">{{model.name}}</h2>
+    <div class="row" style="color:black;">
+      <div class="col-sm-6">
+        <h3 class="card-text"><span class="fa fa-phone"></span> : {{model.phone}}</h3>
+      </div>
+      <div class="col-sm-6">
+        <h3 class="card-text" ><span class="fa fa-users"></span> : {{model.group}}</h3>
+      </div>
+    </div>
+  </div>
+  <ul class="list-group list-group-flush" style="color:black;">
+    <a href={{model.fb}}><li class="list-group-item"><span class="fa fa-facebook-official"></span> : {{model.fb}}</li></a>
+    <a href={{model.twitter}}><li class="list-group-item"><span class="fa fa-twitter-square"></span> : {{model.twitter}}</li></a>
+    <a href={{model.linkedin}}><li class="list-group-item"><span class="fa fa-linkedin-square"></span> : {{model.linkedin}}</li></a>
+    <a href={{model.linkedin}}><li class="list-group-item"><span class="fa fa-envelope-o"></span> : {{model.email}}</li></a>
+  </ul>
+  <div class="card-block text-center" style="background:white;color:black;padding-left:3px;">
+    <h3>Description</h3>
+    <hr>
+    <h5>{{model.desc}}</h5>
+  </div>
+  <h4>
+
+  </h4>
+</div>

@@ -1,0 +1,3 @@
+define("sampleapp/templates/contacts", ["exports"], function (exports) {
+  exports["default"] = Ember.HTMLBars.template({ "id": "dJIJMTNC", "block": "{\"statements\":[[\"text\",\"asdfs\\n\"],[\"open-element\",\"h1\",[]],[\"flush-element\"],[\"text\",\"asfd\"],[\"close-element\"],[\"text\",\"\\n\"],[\"append\",[\"helper\",[\"input\"],null,[[\"autofocus\"],[[\"get\",[\"model\",\"yess\"]]]]],false],[\"text\",\"\\n\"],[\"append\",[\"unknown\",[\"model\",\"yess\"]],false],[\"text\",\"\\n\"],[\"append\",[\"unknown\",[\"outlet\"]],false],[\"text\",\"\\n\"]],\"locals\":[],\"named\":[],\"yields\":[],\"blocks\":[],\"hasPartials\":false}", "meta": { "moduleName": "sampleapp/templates/contacts.hbs" } });
+});
